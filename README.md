@@ -30,7 +30,7 @@
 
 ## Equipe desenvolvedora 💻
 
-- [Alcides Augusto]()
+- [Alcides Augusto](https://github.com/alcalcides/)
 - [Anderson Lima]()
 - [Arthur Gonçalve]()
 - [Danilo Gonçalves]()
