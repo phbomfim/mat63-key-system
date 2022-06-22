@@ -4,8 +4,8 @@
 
 ## Notas do Projeto 📜
 
-1.  https://docs.google.com/document/d/1DjlvVETHqAufeOQiH9yVXfIM1znO_qDV8G3DTTejhY4/edit#
-2. modelo do BD: https://dbdesigner.page.link/QKFiqda1Hvam1Hba9
+1. [Requisitos do Sistema](https://docs.google.com/document/d/1DjlvVETHqAufeOQiH9yVXfIM1znO_qDV8G3DTTejhY4/edit#)
+2. [Modelo do BD](https://dbdesigner.page.link/QKFiqda1Hvam1Hba9)
 
 ## Prerequisitos ⚙️
 
