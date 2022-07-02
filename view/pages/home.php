@@ -3,7 +3,8 @@
   $ASSETS = "../assets";
   $STYLE = "../style";
 
-  include '../../config/local_connection.php';
+  // include '../../config/local_connection.php';
+  include '../../config/remote_connection.php';
 
 ?>
 
