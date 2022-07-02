@@ -19,3 +19,7 @@ h1 {
 .githubLogo {
     width: 80px;
 }
+
+.full-screen {
+    min-height: 100vh;
+}
