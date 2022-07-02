@@ -4,7 +4,8 @@
 
 ## Notas do Projeto 📜
 
-1. 
+1. [Requisitos do Sistema](https://docs.google.com/document/d/1DjlvVETHqAufeOQiH9yVXfIM1znO_qDV8G3DTTejhY4/edit#)
+2. [Modelo do BD](https://dbdesigner.page.link/QKFiqda1Hvam1Hba9)
 
 ## Prerequisitos ⚙️
 
@@ -43,7 +44,7 @@ docker compose -f docker-compose.dev.yaml up --build
 
 - [Alcides Augusto](https://github.com/alcalcides/)
 - [Anderson Lima]()
-- [Arthur Gonçalve]()
+- [Arthur Gonçalves]()
 - [Danilo Gonçalves]()
 - [Paulo Bomfim](https://github.com/phbomfim/)
 
