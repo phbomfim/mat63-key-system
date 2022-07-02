@@ -25,6 +25,17 @@
 
 ## Instruções de uso 📋
 
+### Docker (development environment)
+
+1. Run
+
+```bash
+docker compose -f docker-compose.dev.yaml up
+```
+
+2. Verify http://localhost:8000/
+
+
 ## E como o programa funciona por trás? 🤔
 
 
