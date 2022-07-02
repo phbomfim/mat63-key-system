@@ -44,7 +44,7 @@ docker compose -f docker-compose.dev.yaml up --build
 
 - [Alcides Augusto](https://github.com/alcalcides/)
 - [Anderson Lima]()
-- [Arthur Gonçalves]()
+- [Arthur Gonçalves](https://github.com/arthurglima)
 - [Danilo Gonçalves]()
 - [Paulo Bomfim](https://github.com/phbomfim/)
 
