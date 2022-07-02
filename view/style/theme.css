@@ -11,3 +11,11 @@ body {
     color: var(--text-title);
     font-family: var(--text-font);
 }
+
+h1 {
+    font-weight: bold;
+}
+
+.githubLogo {
+    width: 80px;
+}
