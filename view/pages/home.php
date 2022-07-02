@@ -2,6 +2,9 @@
   $COMPONENTS = "../components";
   $ASSETS = "../assets";
   $STYLE = "../style";
+
+  include '../../config/local_connection.php';
+
 ?>
 
 <!DOCTYPE html>
