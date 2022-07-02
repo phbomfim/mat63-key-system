@@ -30,7 +30,7 @@
 1. Run
 
 ```bash
-docker compose -f docker-compose.dev.yaml up
+docker compose -f docker-compose.dev.yaml up --build
 ```
 
 2. Verify http://localhost:8000/
