@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+:root {
+    --soft-light: #E8D0BE88;
+    --text-title: #FF4040;
+    --text-font: 'Montserrat', 'sans-serif';
+}
+
+body {
+    background-color: var(--soft-light);
+    color: var(--text-title);
+    font-family: var(--text-font);
+}
