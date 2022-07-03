@@ -3,10 +3,17 @@
         return ($value !== NULL and $value !== false);
     }
 
+    $fullName = filter_input(INPUT_POST, 'fullName');
+    $username = filter_input(INPUT_POST, 'username');
     $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
+    $phoneNumber = filter_input(INPUT_POST, 'phoneNumber');
     $password = filter_input(INPUT_POST, 'password');
     
-    $isOk = isFilterInputOk($email) && isFilterInputOk($password);
+    $isOk = isFilterInputOk($fullName) && 
+        isFilterInputOk($username) && 
+        isFilterInputOk($email) && 
+        isFilterInputOk($phoneNumber) && 
+        isFilterInputOk($password);
 
     // missing backend calling 
     // missing session storage
