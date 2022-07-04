@@ -1,4 +1,4 @@
-<form id="sign-in" action="../../controller/sign_in_controller.php" method="post">
+<form id="sign-in" action="../../controller/sign-in-controller.php" method="post">
     <div class="mb-3">
         <input type="email" class="form-control" name="email" placeholder="Email" required>
     </div>

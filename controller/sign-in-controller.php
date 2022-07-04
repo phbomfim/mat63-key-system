@@ -1,6 +1,8 @@
 <?php
-    include '../config/remote_connection.php';
-    
+    require_once '../config/remote_connection.php';
+    require_once "../utils/sanitization.php";
+    require_once "../utils/session.php";
+
     $email = $_POST['email'];
     $password = $_POST['password'];
 
@@ -9,10 +11,10 @@
     $total = mysqli_num_rows($result_id); 
     
     if($total > 0) {
-    
-        # $_SESSION['email'] = $email;
-        # $_SESSION['password'] = $password;
-    
+        initiateSession();
+        $_SESSION["authorized"] = true;
+        $_SESSION["signOut"] = true;
+        
         header("Location:../view/pages/private/salas.php");
     } 
     
