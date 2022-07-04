@@ -1,5 +1,6 @@
 <?php
     require_once "../utils/sanitization.php";
+    require_once "../utils/session.php";
 
     $fullName = getTextInputDefault('fullName');
     $username = getTextInputDefault('username');
@@ -13,8 +14,12 @@
         isThereRealContent($phoneNumber) && 
         isThereRealContent($password);
 
-    // missing backend calling 
-    // missing session storage
+    // missing backend calling here
+   
+    initiateSession();
+    $_SESSION["authorized"] = true;
+    $_SESSION["signOut"] = true;
+
 
     if($isOk) {
         header("refresh:0; url=/view/pages/private/salas.php");
