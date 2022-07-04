@@ -3,10 +3,7 @@
 
   session_start();
   
-  if($_SESSION["authorized"] !== true) {
-    header("refresh:0; url=/view/pages/home.php");    
-    echo "<script>alert('Be Authenticated')</script>";
-  }
+  require "../../../utils/verifySession.php";
 
   $COMPONENTS = "../../components";
 ?>
