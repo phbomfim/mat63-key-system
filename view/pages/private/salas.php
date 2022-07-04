@@ -1,4 +1,10 @@
 <?php 
+  require "../../../utils/session.php";
+
+  session_start();
+  
+  require "../../../utils/verifySession.php";
+
   $COMPONENTS = "../../components";
 ?>
 
@@ -13,8 +19,9 @@
     <header class="row">
       <h1 class="col-12 text-center text-strange">Salas</h1>
     </header>
+    <?php require "$COMPONENTS/nav-members.php" ?>
     <main class="row my-3">
-      
+      <?php require "$COMPONENTS/table-salas.php" ?>        
     </main>
   </div>
   <?php require "$COMPONENTS/footer-general.php" ?>

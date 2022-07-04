@@ -4,6 +4,8 @@
     --soft-light: #E8D0BE88;
     --text-title: #FF4040;
     --text-font: 'Montserrat', 'sans-serif';
+    --navMembersBackgroundColor: #7F0000;
+    --navMembersTextColor: white;
 }
 
 body {
@@ -22,4 +24,12 @@ h1 {
 
 .full-screen {
     min-height: 100vh;
+}
+
+.nav-members {
+    background-color: var(--navMembersBackgroundColor);
+}
+
+.nav-members a {
+    color: var(--navMembersTextColor);
 }
