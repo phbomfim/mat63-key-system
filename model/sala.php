@@ -1,5 +1,5 @@
 <?php
-require("config/local_connection.php");
+require("config/remote_connection.php");
 
 
 /**
