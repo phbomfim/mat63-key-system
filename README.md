@@ -1,4 +1,4 @@
-# <div align="center">Key System </div>
+# <div align="center">Key System 🔐</div>
 
 ##### <div align="center">Sistema de Controle de chaves  </div>
 
@@ -10,7 +10,6 @@
 2. [Modelo do BD](https://dbdesigner.page.link/QKFiqda1Hvam1Hba9)
 
 ## Instalação 📌
-
 
 ##### 1. Clone o repositório
 
