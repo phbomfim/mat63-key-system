@@ -27,7 +27,7 @@
           <?php require "$COMPONENTS/home-sign-in.php" ?>
         </section>
         <section>
-          <h2>Sign out</h2>
+          <h2>Sign up</h2>
           <?php require "$COMPONENTS/home-sign-out.php" ?>
         </section>
       </article>

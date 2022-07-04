@@ -14,5 +14,5 @@
     <div class="mb-3">
         <input type="password" class="form-control" name="password" placeholder="Password" required>
     </div>
-    <button type="submit" class="btn btn-danger">Sign out</button>
+    <button type="submit" class="btn btn-danger">Sign up</button>
 </form>
