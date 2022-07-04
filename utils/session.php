@@ -11,6 +11,7 @@ function isThereNoSession() {
 }
 
 function strikeSession() {
+    session_start();
     session_unset();
     session_destroy();
 }
