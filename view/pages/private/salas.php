@@ -19,9 +19,9 @@
     <header class="row">
       <h1 class="col-12 text-center text-strange">Salas</h1>
     </header>
-    <?php require '../../components/nav-members.php' ?>
+    <?php require "$COMPONENTS/nav-members.php" ?>
     <main class="row my-3">
-      <?= var_dump($_SESSION) ?>
+      <?php require "$COMPONENTS/table-salas.php" ?>        
     </main>
   </div>
   <?php require "$COMPONENTS/footer-general.php" ?>

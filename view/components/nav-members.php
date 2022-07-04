@@ -1,4 +1,4 @@
-<nav class="nav justify-content-center nav-members">
+<nav class="nav justify-content-center nav-members nav-fill">
   <a class="nav-link" href="/view/pages/private/salas.php">Salas</a>
   <a class="nav-link" href="#">Usuários</a>
   <a class="nav-link" href="#">Perfil</a>
