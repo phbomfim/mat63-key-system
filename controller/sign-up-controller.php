@@ -19,6 +19,6 @@
     $_SESSION["signUp"] = true;
 
     if($isOk) {
-        header("refresh:0; url=/view/pages/private/salas.php");
+        header("refresh:0; url=../view/pages/private/salas.php");
     }
 ?>
