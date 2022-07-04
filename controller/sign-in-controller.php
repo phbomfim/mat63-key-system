@@ -13,7 +13,7 @@
     if($total > 0) {
         initiateSession();
         $_SESSION["authorized"] = true;
-        $_SESSION["signOut"] = true;
+        $_SESSION["signUp"] = true;
         
         header("Location:../view/pages/private/salas.php");
     } 

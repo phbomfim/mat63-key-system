@@ -16,7 +16,7 @@
 
     initiateSession();
     $_SESSION["authorized"] = true;
-    $_SESSION["signOut"] = true;
+    $_SESSION["signUp"] = true;
 
     if($isOk) {
         header("refresh:0; url=/view/pages/private/salas.php");

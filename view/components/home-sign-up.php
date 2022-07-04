@@ -25,5 +25,5 @@
             <option value="99">Porteiro</option>
         </select>
     </div>
-    <button type="submit" class="btn btn-danger">Sign out</button>
+    <button type="submit" class="btn btn-danger">Sign up</button>
 </form>
