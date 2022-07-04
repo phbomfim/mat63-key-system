@@ -1,5 +1,5 @@
 <?php
-require("config/local_connection.php");
+require("../config/remote_connection.php");
 
 /**
  * Insere um novo usuário no banco de dados
@@ -16,15 +16,16 @@ require("config/local_connection.php");
  * 3 - Discente;
  * 4 - Visitante;
  * 99 - Porteiro;
+ * @param string $telefone telefone do usuário
  * @return mysqli_result|false resultado da inserção ou FALSE, caso uma falha tenha ocorrido
  */
-function insertUsuario(mysqli $con, string $nome, string $email, string $apelido, string $senha, int $nivel) {
+function insertUsuario(mysqli $con, string $nome, string $email, string $apelido, string $senha, int $nivel, string $telefone) {
     //gera a query
-    $query = "INSERT (nome, email, apelido, senha, nivel) INTO `usuarios` VALUES (?,?,?,?,?)";
+    $query = "INSERT (nome, email, apelido, senha, nivel, telefone) INTO `usuarios` VALUES (?,?,?,?,?,?)";
     $stmt = $con->prepare($query);
 
     //associa os parâmetros a serem usados na query e seus tipos
-    mysqli_stmt_bind_param($stmt, "ssssi", $nome, $email, $apelido, $senha, $nivel);
+    mysqli_stmt_bind_param($stmt, "ssssi", $nome, $email, $apelido, $senha, $nivel, $telefone);
 
     //executa a query
     mysqli_stmt_execute($stmt);
