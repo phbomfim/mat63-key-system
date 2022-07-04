@@ -18,8 +18,8 @@
   <div class="container mt-3 full-screen">
     <header class="row">
       <h1 class="col-12 text-center text-strange">Salas</h1>
-      <?php require '../../components/nav-members.php' ?>
     </header>
+    <?php require '../../components/nav-members.php' ?>
     <main class="row my-3">
       <?= var_dump($_SESSION) ?>
     </main>
