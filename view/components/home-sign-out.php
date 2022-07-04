@@ -1,4 +1,4 @@
-<form id="sign-out">
+<form id="sign-out" action="/controller/sign-out-controller.php" method="post">
     <div class="mb-3">
         <input type="text" class="form-control" name="fullName" max="50" min="15" placeholder="Full name" required>
     </div>

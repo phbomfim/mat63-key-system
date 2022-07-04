@@ -1,16 +1,19 @@
 <?php
-    function isFilterInputOk($value) {
-        return ($value !== NULL and $value !== false);
-    }
+    require_once "../utils/sanitization.php";
+    require_once "../utils/session.php";
 
-    $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
-    $password = filter_input(INPUT_POST, 'password');
+    $email = getEmailSanitized('email');
+    $password = getTextInputDefault('password');
     
-    $isOk = isFilterInputOk($email) && isFilterInputOk($password);
+    $isThereEnoughContent = isThereRealContent($email) && isThereRealContent($password);
 
-    // missing backend calling 
+    // missing backend calling here
+    
+    initiateSession();
+    $_SESSION["authorized"] = true;
+    $_SESSION["signIn"] = true;
 
-    if($isOk) {
+    if($isThereEnoughContent) {
         header("refresh:0; url=/view/pages/private/salas.php");
     }
 ?>
